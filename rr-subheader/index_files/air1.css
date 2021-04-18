@@ -1,8 +1,8 @@
 @charset "UTF-8";
 @font-face {
   font-family: 'klove-icons-32';
-  src: url("/styles/fonts/air1-icons-32/fonts/klove-icons-32.eot?3z17hl");
-  src: url("/styles/fonts/air1-icons-32/fonts/klove-icons-32.eot?3z17hl#iefix") format("embedded-opentype"), url("/styles/fonts/air1-icons-32/fonts/klove-icons-32.woff2?3z17hl") format("woff2"), url("/styles/fonts/air1-icons-32/fonts/klove-icons-32.ttf?3z17hl") format("truetype"), url("/styles/fonts/air1-icons-32/fonts/klove-icons-32.woff?3z17hl") format("woff"), url("/styles/fonts/air1-icons-32/fonts/klove-icons-32.svg?3z17hl#klove-icons-32") format("svg");
+  src: url("http://10.0.0.58/styles/fonts/air1-icons-32/fonts/klove-icons-32.eot?3z17hl");
+  src: url("http://10.0.0.58/styles/fonts/air1-icons-32/fonts/klove-icons-32.eot?3z17hl#iefix") format("embedded-opentype"), url("http://10.0.0.58/styles/fonts/air1-icons-32/fonts/klove-icons-32.woff2?3z17hl") format("woff2"), url("http://10.0.0.58/styles/fonts/air1-icons-32/fonts/klove-icons-32.ttf?3z17hl") format("truetype"), url("http://10.0.0.58/styles/fonts/air1-icons-32/fonts/klove-icons-32.woff?3z17hl") format("woff"), url("http://10.0.0.58/styles/fonts/air1-icons-32/fonts/klove-icons-32.svg?3z17hl#klove-icons-32") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block; }
@@ -9390,7 +9390,7 @@ ul.recently-played {
 
 /* Slider */
 .slick-loading .slick-list {
-  background: #fff url("./ajax-loader.gif") center center no-repeat; }
+  background: #fff url("https://radio.rockfall.tk/rr-subheader/index_files/ajax-loader.gif") center center no-repeat; }
 
 /* Icons */
 /* Arrows */
@@ -10295,8 +10295,8 @@ nav.navbar #navbar-main {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url(../img/bg-masthead.jpg);
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url(../img/bg-masthead.jpg);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url(https://radio.rockfall.tk/rr-subheader/img/bg-masthead.jpg);
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url(https://radio.rockfall.tk/rr-subheader/img/bg-masthead.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10331,7 +10331,7 @@ nav.navbar #navbar-main {
   position: relative; }
   @media only screen and (max-width: 500px) {
     .parallax {
-      background-image: url("/-/media/assets/cloud/air1/images/parallax-mobile.jpg");
+      background-image: url("http://10.0.0.58/-/media/assets/cloud/air1/images/parallax-mobile.jpg");
       background-size: cover;
       background-attachment: initial; } }
   .parallax .content-wrapper {
@@ -10729,8 +10729,8 @@ a:hover {
 
 @font-face {
   font-family: 'klove-icons-32';
-  src: url("/styles/fonts/air1-icons-32/fonts/klove-icons-32.eot?3z17hl");
-  src: url("/styles/fonts/air1-icons-32/fonts/klove-icons-32.eot?3z17hl#iefix") format("embedded-opentype"), url("/styles/fonts/air1-icons-32/fonts/klove-icons-32.woff2?3z17hl") format("woff2"), url("/styles/fonts/air1-icons-32/fonts/klove-icons-32.ttf?3z17hl") format("truetype"), url("/styles/fonts/air1-icons-32/fonts/klove-icons-32.woff?3z17hl") format("woff"), url("/styles/fonts/air1-icons-32/fonts/klove-icons-32.svg?3z17hl#klove-icons-32") format("svg");
+  src: url("http://10.0.0.58/styles/fonts/air1-icons-32/fonts/klove-icons-32.eot?3z17hl");
+  src: url("http://10.0.0.58/styles/fonts/air1-icons-32/fonts/klove-icons-32.eot?3z17hl#iefix") format("embedded-opentype"), url("http://10.0.0.58/styles/fonts/air1-icons-32/fonts/klove-icons-32.woff2?3z17hl") format("woff2"), url("http://10.0.0.58/styles/fonts/air1-icons-32/fonts/klove-icons-32.ttf?3z17hl") format("truetype"), url("http://10.0.0.58/styles/fonts/air1-icons-32/fonts/klove-icons-32.woff?3z17hl") format("woff"), url("http://10.0.0.58/styles/fonts/air1-icons-32/fonts/klove-icons-32.svg?3z17hl#klove-icons-32") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block; }
@@ -11239,7 +11239,7 @@ a.btn-light:visited {
   .event-listing-wrapper a:hover {
     text-decoration: none; }
   .event-listing-wrapper .promo-img-placeholder {
-    background: linear-gradient(rgba(91, 61, 145, 0.9), rgba(181, 57, 122, 0.5)), url("/images/emf-event-placeholder.jpg");
+    background: linear-gradient(rgba(91, 61, 145, 0.9), rgba(181, 57, 122, 0.5)), url("http://10.0.0.58/images/emf-event-placeholder.jpg");
     background-size: cover; }
   .event-listing-wrapper .card {
     overflow: hidden;
@@ -11815,8 +11815,8 @@ i.icon_leaving_site {
 
 @font-face {
   font-family: 'klove-icons-32';
-  src: url("/styles/fonts/air1-icons-32/fonts/klove-icons-32.eot?3z17hl");
-  src: url("/styles/fonts/air1-icons-32/fonts/klove-icons-32.eot?3z17hl#iefix") format("embedded-opentype"), url("/styles/fonts/air1-icons-32/fonts/klove-icons-32.woff2?3z17hl") format("woff2"), url("/styles/fonts/air1-icons-32/fonts/klove-icons-32.ttf?3z17hl") format("truetype"), url("/styles/fonts/air1-icons-32/fonts/klove-icons-32.woff?3z17hl") format("woff"), url("/styles/fonts/air1-icons-32/fonts/klove-icons-32.svg?3z17hl#klove-icons-32") format("svg");
+  src: url("http://10.0.0.58/styles/fonts/air1-icons-32/fonts/klove-icons-32.eot?3z17hl");
+  src: url("http://10.0.0.58/styles/fonts/air1-icons-32/fonts/klove-icons-32.eot?3z17hl#iefix") format("embedded-opentype"), url("http://10.0.0.58/styles/fonts/air1-icons-32/fonts/klove-icons-32.woff2?3z17hl") format("woff2"), url("http://10.0.0.58/styles/fonts/air1-icons-32/fonts/klove-icons-32.ttf?3z17hl") format("truetype"), url("http://10.0.0.58/styles/fonts/air1-icons-32/fonts/klove-icons-32.woff?3z17hl") format("woff"), url("http://10.0.0.58/styles/fonts/air1-icons-32/fonts/klove-icons-32.svg?3z17hl#klove-icons-32") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block; }
@@ -12983,8 +12983,8 @@ nav.navbar {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url(../img/bg-masthead.jpg);
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url(../img/bg-masthead.jpg);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url(https://radio.rockfall.tk/rr-subheader/img/bg-masthead.jpg);
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url(https://radio.rockfall.tk/rr-subheader/img/bg-masthead.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -13028,7 +13028,7 @@ nav.navbar {
   position: relative; }
   @media only screen and (max-width: 500px) {
     .parallax {
-      background-image: url("/-/media/assets/cloud/air1/images/parallax-mobile.jpg");
+      background-image: url("http://10.0.0.58/-/media/assets/cloud/air1/images/parallax-mobile.jpg");
       background-size: cover;
       background-attachment: initial; } }
   .parallax .content-wrapper {
