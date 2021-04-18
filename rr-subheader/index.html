@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)https://radio.rockfall.tk/rr-subheader/ --><html lang="en"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Required meta tags -->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <title></title>
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="fb:app_id" content="579138596066056">
+    <meta property="og:site_name" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Air1">
+    <meta property="og:image" content="https://www.air1.com/-/media/air1/a1-facebook-og-image.jpg">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:description" content="Positive Hits">
+    <meta property="og:url" content="https://www.air1.com/">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="Air1 Worship Music">
+    <meta name="twitter:title" content="Air1">
+    <meta name="twitter:description" content="Positive Hits">
+    <meta name="twitter:image" content="https://www.air1.com/-/media/air1/a1-facebook-og-image.jpg">
+    <meta http-equiv="content-language" content="en">
+    
+    <meta http-equiv="last-modified" content="2020-10-15T18:17:26Z">
+    <meta class="swiftype" name="title" data-type="string" content="Air1">
+    <meta class="swiftype" name="description" data-type="string" content="Positive Hits">
+    <meta class="swiftype" name="image" data-type="enum" content="https://www.air1.com/-/media/air1/a1-facebook-og-image.jpg">
+    <meta class="swiftype" name="published_at" data-type="date" content="0001-01-01T00:00:00">
+    <meta class="swiftype" name="section" data-type="string" content="Page">
+    <meta class="swiftype" name="scope" data-type="string" content="/">
+    <meta class="search" name="apiKey" data-type="string" content="cqrVUBL-EndmXE8fZvkW">
+    <meta class="st:robots" content="index,follow">
+
+    <link href="https://www.air1.com/" rel="canonical">
+
+<script src="https://radio.rockfall.tk/rr-subheader/index_files/utag.js.download" type="text/javascript" async=""></script><script async="" src="https://radio.rockfall.tk/rr-subheader/index_files/st.js.download"></script><script src="https://radio.rockfall.tk/rr-subheader/index_files/11.1.272.js.download" type="text/javascript" async=""></script><script type="text/javascript" async="" src="https://radio.rockfall.tk/rr-subheader/index_files/analytics.js.download"></script><script async="" src="https://radio.rockfall.tk/rr-subheader/index_files/main.dec9de31.js.download"></script><script async="" src="https://radio.rockfall.tk/rr-subheader/index_files/main.dec9de31.js.download"></script><script type="text/javascript" async="" src="https://radio.rockfall.tk/rr-subheader/index_files/js"></script><script async="" src="https://radio.rockfall.tk/rr-subheader/index_files/uwt.js.download"></script><script type="text/javascript" async="" charset="utf-8" id="utag_22" src="https://radio.rockfall.tk/rr-subheader/index_files/core.js.download"></script><script type="text/javascript" async="" charset="utf-8" id="utag_15" src="https://radio.rockfall.tk/rr-subheader/index_files/core.js.download"></script><script type="text/javascript" async="" charset="utf-8" id="utag_14" src="https://radio.rockfall.tk/rr-subheader/index_files/bat.js.download"></script><script type="text/javascript" async="" charset="utf-8" id="utag_11" src="https://radio.rockfall.tk/rr-subheader/index_files/fbevents.js.download"></script><script type="text/javascript" async="" charset="utf-8" id="utag_3" src="https://radio.rockfall.tk/rr-subheader/index_files/pd.js.download"></script><script type="text/javascript" async="" charset="utf-8" id="utag_4" src="https://radio.rockfall.tk/rr-subheader/index_files/js(1)"></script><script src="https://radio.rockfall.tk/rr-subheader/index_files/utag.js(1).download" type="text/javascript" async=""></script><script async="" src="https://radio.rockfall.tk/rr-subheader/index_files/st.js(1).download"></script><script type="text/javascript">
+    (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+    (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+    e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+    })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
+
+    _st('install','cqrVUBL-EndmXE8fZvkW','2.0.0');
+</script>
+
+<script src="//cdn.rockfall.tk/jquery-1.11.2.min.js"></script>
+<script>
+	function updateHistory(historyData)
+	{	
+		var nowplayingData = historyData[0];
+		
+		var currentTrack = $('#track').html();
+		var currentArtist = $('#artist').html();
+
+		if (currentTrack != nowplayingData.Track.Title && currentArtist != nowplayingData.ArtistName)
+		{	
+			$('#stationname').html(nowplayingData.Station.Name);
+			$('#stationslogan').html(nowplayingData.Station.Slogan);
+			$('#track').html(nowplayingData.Track.Title);
+			$('#artist').html(nowplayingData.Track.ArtistName);
+			$('#duration').html(nowplayingData.Track.Duration);
+			$('#album').html(nowplayingData.Album.Title);
+			$('#albumart').attr('src', nowplayingData.Album.ArtworkUrl + '/48/48');
+		
+			$('#history').empty();
+			
+			jQuery.each(historyData, function(i, val)
+                                           { 
+		                             if (val != 0 && val.Album.ArtworkUrl != '')
+				{ 					
+                                                                        $('#history').append('');
+				}
+			});		
+		}
+	}
+
+	function updateAll()
+	{	
+		getHistoryData();			
+		setTimeout(function() { updateAll(); }, 10000);		
+	}
+	
+	function getHistoryData()
+	{
+		$.ajax('https://cdn.rockfall.tk/history', 
+			{
+				type: 'GET',
+				dataType: 'json',
+				success: (function (resp)
+				{
+					updateHistory(resp);
+				}),
+				error: function (req, status, error)
+				{
+				}
+			}
+		)		
+	}
+
+$(function() { updateAll(); });
+</script>
+
+
+    <link rel="mask-icon" href="https://www.air1.com/Styles/air1/favicon/safari-pinned-tab.svg" color="#b5397a">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-config" content="/Styles/air1/favicon/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="https://radio.rockfall.tk/rr-subheader/index_files/all.css">
+<link href="https://radio.rockfall.tk/rr-subheader/index_files/css" rel="stylesheet">
+<link href="https://radio.rockfall.tk/rr-subheader/index_files/css(1)" rel="stylesheet">
+<link rel="icon" href="https://cdn.corpemf.com/www/air1/favicon.ico">
+<link rel="shortcut icon" href="https://cdn.corpemf.com/www/air1/favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="https://cdn.corpemf.com/www/air1/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://cdn.corpemf.com/www/air1/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://cdn.corpemf.com/www/air1/favicon-16x16.png">
+<style type="text/css">footer a, footer a:visited, footer a:hover{color:#212529};</style>
+<style type="text/css">.pledge-drive-wrapper .timer-heading .tagline {
+    color: #5b3d91;
+    font-size: 25px;
+}
+
+.modal button.close {
+    z-index: 111;
+}
+.modal button.close:focus{
+   outline: none;
+}
+
+header {
+margin-bottom: 50px;
+}
+
+.yt-wrapper {
+    padding: 1.5rem;
+
+    iframe {
+        max-width: 100%;
+    }
+}
+
+header.masthead-wrapper h1 {
+    font-family: "Days One", "Arial", sans-serif;
+}
+
+img {
+max-width: 100%;
+}
+
+.promo-listing-wrapper .promo-wrapper {
+    border: none;
+}</style>
+
+    
+    
+
+
+    <link rel="stylesheet" href="https://radio.rockfall.tk/rr-subheader/index_files/air1.css">
+
+    
+    
+<script src="https://radio.rockfall.tk/rr-subheader/index_files/jquery-2.1.3.min.js.download"></script>
+<section class="header">
+    
+    
+</section>
+
+
+
+
+<section id="header-subnav" class="nav-two">
+    <!-- SECOND -->
+    <div class="d-none d-lg-inline">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-min navbar-search">
+            <div class="container">
+                <!--Recently Played-->
+                <ul class="navbar-nav mr-auto header-recently-played align-items-center">
+                    <li class="">
+                        <a class="btn btn-grad" href="https://listen.rockfall.tk/" target="_blank" data-tealium_event="player" data-event_action="link" data-event_category="player" data-event_label="Listen live" data-event_location="main nav">LISTEN LIVE</a>
+                    </li>
+                    <li>
+                        <class nav-np-song-url data-tealium_event="navigate" data-event_action="link" data-event_category="music" data-event_label="Current Song | Zoe Music The God Who Fights For Me" data-event_location="main nav">
+                            <img id="albumart" class="nav-album">
+                        
+                    </class>
+</li>
+                    <li class="text-small nav-song-info pr-3">
+                        <class nav-np-song-url data-tealium_event="navigate" data-event_action="link" data-event_category="music" data-event_label="Current Song | Zoe Music The God Who Fights For Me" data-event_location="main nav">
+                            <span id="nav-np-song" class="font-weight-bold d-inline-block text-truncate" style="max-width: 250px;"><span id="track"></span></span><br>
+                            <span id="nav-np-artist" class="d-inline-block text-truncate" style="max-width: 250px;"><span id="artist"></span></span>
+                        
+                    </class>
+</li>
+                        <li class="nav-item border-left pl-2 text-dark">
+                            <a class="nav-link text-dark" href="https://www.air1.com/music/songs" data-tealium_event="navigate" data-event_action="link" data-event_category="music" data-event_label="Recently Played" data-event_location="main nav">Recently Played</a>
+                        </li>
+                        <li class="nav-item border-left pl-2 station-item text-dark">
+                            
+                        </li>
+                </ul>
+
+
+
+
+                    
+                    
+
+
+            </div>
+        </nav>
+    </div>
+</section>
+
+
+<script type="text/javascript">
+    setTimeout(() => {
+        init();
+    }, 30000);
+
+    const init = () => {
+        //SignalR Now Playing
+        const urlBase = "https://api.corpemf.com/music-player/v1/nowplaying/";
+        const axiosConfig = {}
+
+        axios.post(urlBase + 'negotiate?Hub=Air1Live', null, axiosConfig)
+            .then(({ data: { accessToken, url } }) => {
+
+                const options = {
+                    accessTokenFactory: function () {
+                        return accessToken
+                    }
+                }
+
+                const connection = new signalR.HubConnectionBuilder()
+                    .configureLogging(signalR.LogLevel.Warning) //None, Critical, Error, Warning, Information, Debug, Trace
+                    .withUrl(url, options)
+                    .build()
+
+                connection.on('songChanged', (msg) => {
+                    setTimeout(() => {
+                        console.debug("Song Changed: " + msg.SongTitle);
+                        updateSong(msg)
+                    }, 100000);
+                });
+
+                connection.onclose(() => {
+                    console.debug("Connection Closed");
+                    init();
+                })
+
+                connection.start().then(() => {
+                    console.debug("Connection successful");
+                });
+
+            })
+            .catch(() => {
+                return {}
+            });
+    }
+
+        const updateSong = (msg) => {
+            //New song from SignalR
+            $("#nav-np-album")
+                .attr("src", msg.AlbumImage)
+                .attr("alt", msg.AlbumTitle)
+                .attr("title", msg.AlbumTitle);
+            $('#nav-np-song').html(msg.SongTitle);
+            $(".nav-np-song-url").attr("href", msg.SongUrl);
+            $('#nav-np-artist').html(msg.ArtistName);
+        }
+</script>
+</head></html>
